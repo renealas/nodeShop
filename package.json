@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production MONGO_USER=rene MONGO_PASSWORD=r4ul1t012 MONGO_DEFAULT_DATABASE=shop STRIPE_KEY=pk_test_51I9XafDi13Rdc8moVEOSw2BP2lV9OPUbONjg3f2CF8hcZkNtFbzFmNC7n8SIjG2IKTvFrVuYM8LrVX3VD1r6uR3V00UaZfLyoZ node app.js",
+    "start": "NODE_ENV=production MONGO_USER=rene MONGO_PASSWORD=r4ul1t012 MONGO_DEFAULT_DATABASE=shop STRIPE_KEY=sk_test_51I9XafDi13Rdc8moxTaFdCQ9lfLdBxTfd85mgqeETRhuBPsbSfIyG5e8v160MuukoAf2ZU7HTWMvV7c7wiOn3dw500YwPk6tSE node app.js",
     "start-server": "node app.js",
     "start:dev": "nodemon app.js"
   },
