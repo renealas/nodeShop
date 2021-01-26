@@ -1,0 +1,46 @@
+{
+  "name": "nodejs-shop",
+  "version": "1.0.0",
+  "description": "Complete Node.js Tutorial",
+  "main": "app.js",
+  "engines": {
+    "node": "12.18.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production MONGO_USER=rene MONGO_PASSWORD=r4ul1t012 MONGO_DEFAULT_DATABASE=shop STRIPE_KEY=sk_test_51I9XafDi13Rdc8moxTaFdCQ9lfLdBxTfd85mgqeETRhuBPsbSfIyG5e8v160MuukoAf2ZU7HTWMvV7c7wiOn3dw500YwPk6tSE node app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Rene Alas",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.4.1",
+    "csurf": "^1.11.0",
+    "ejs": "^2.7.4",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.9.2",
+    "helmet": "^4.4.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pdfkit": "^0.11.0",
+    "pug": "^2.0.3",
+    "sequelize": "^6.3.5",
+    "serve-favicon": "^2.5.0",
+    "stripe": "^8.130.0"
+  }
+}
