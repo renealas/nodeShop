@@ -278,6 +278,16 @@ form {
   color: white;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00695c;
+  color: white;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .main-header__nav {
     display: flex;
